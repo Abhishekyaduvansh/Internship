@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <Label><small>Already have a Account?<input type="button" value="Sign in" ><a href="SignIn.html"></a></small></Label>
+    </div>
+    <div class="bottom">
+    <form action="/submit" method="post">
+        <div class="container">
+            <div class="top-container">
+               <img src="Icons/EFA_Registered Logo (1).png" class="resize">
+            </div><hr>
+            <h3>Create a Emotional First Aid-Enabler Account</h3>
+            <h6>By singin Up you can start posting, replaying to topics, earn badges, favorite, vote topics and many more.</h6><br>
+            <hr style="height:1px;border-top:2px solid rgba(173, 107, 0, 0.823)" />
+            
+        <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <div class="half-line">
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <div class="half-line">
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="username">Username (Unique):</label>
+            <div class="half-line">
+            <input type="text" id="username" name="username" required>
+        </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <div class="half-line">
+            <input type="email" id="email" name="email" required>
+        </div>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password (must be strong):</label>
+            <div class="half-line">
+            <input type="password" id="password" name="password" required>
+            </div>
+        </div>
+
+        
+        <div>
+            <p>Privacy Settings(OPTIONAL)<hr></p> <br>
+            
+            <small>Who can see mu Profile?</small><br><br>
+            <label class="Box">
+                <input type="checkbox" checked="checked"> Everyone
+                <span class="checkmark"></span> </label>
+                <label class="Box">
+                    <input type="checkbox" checked="checked"> Only Friends <span class="checkmark"></span></label>
+                    <label class="Box">
+                        <input type="checkbox" checked="checked"> Invite Only <span class="checkmark"></span></label><br><br>
+                        <small>Automatically share my posts and replies on Social Networks</small><br><br>
+            <label class="Box">
+              <input type="checkbox" checked="checked"><img src="Icons/Facebook.png" alt="">Facebook
+              <span class="checkmark"></span></label>          
+              <label class="Box">
+                <input type="checkbox" checked="checked"><img src="Icons/Twitter.png" alt="">Twitter
+                <span class="checkmark"></span>
+                </label>    
+                <label class="Box">
+                    <input type="checkbox" checked="checked"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+
+                    <span class="checkmark"></span>
+                    </label>    
+                    <br> <br>
+
+
+                    <!-- Next -->
+            <p>Small Survet(OPTIONAL)</p> <hr><br>
+            <small>How old are you?</small>
+            <div class="form-group">
+                <div class="half-line">
+            <input type="text" name="city" list="cityname">
+    <datalist id="age">
+      <option value="kYU bTAU">
+      <option value="nAHI bTAUNGA">
+    </datalist></div>
+    <SMAll>Who are you?</SMAll><div class="half-line">
+    <input type="text" name="gender" list="">
+    <datalist id="Gender">
+      <option value="Male">
+      <option value="Female">
+        <option value="Other"></option>
+    </datalist> </div>
+    <small> Will you be friendly here?</small><div class="half-line">
+    <input type="text" name="" list="">
+    <datalist id="">
+      <option value="Yes">
+      <option value="No">
+    </datalist></div>
+    <small>Where do you heard about us?</small><div class="half-line">
+    <input type="text" name="" list="">
+    <datalist id="">
+      <option value="By search engine">
+      <option value="Linkedin">
+        <option value="Social media"></option>
+    </datalist></div></div></div>
+
+    <p>Link Social Networks(OPTIONAL)</p>
+    <div class="form-group">
+        <div class="half-line">
+     <i><img src="Icons/Facebook.png" alt="">Facebook URL</i><br>
+     <input type="url" name="" id=""><br>
+        </div>
+    <div class="half-line">
+     <i ><img src="Icons/Twitter.png" alt="">Twitter Username</i><br>
+     <input type="text" name="" id="">
+    </div>
+     <div class="half-line">
+     <i class="fa fa-google-plus" aria-hidden="true"> Google+ Account ID</i><br>
+     <input type="text" name="" id="">
+     </div>
+     <div class="half-line">
+     <i><img src="Icons/Youtube.png" alt="">Youtube Channel URL</i><br>
+     <input type="url" name="" id="">
+     </div>
+     <p>Intersted Categories(OPTIONAL)</p><br>
+<small>Categories I'm intersted in</small>
+<br>
+<div class="flex-container">
+        <div class="Box">
+        <input type="checkbox" checked="checked"> Select All
+        </div>
+        <div style="margin: 0px;" class="Box">
+        <input type="checkbox" checked="checked"> Mental health
+         </div><div class="Box">
+            <input type="checkbox"> MH Tips
+         </div><div class="Box">
+            <input type="checkbox"> Support
+         </div>
+    
+        <div  class="Box">
+            <input type="checkbox"> Enabler
+         </div>
+        <div class="Box">
+            <input type="checkbox"> Exchange
+        </div>
+         <div class="Box">
+            <input type="checkbox"> Art
+         </div>
+         <div class="Box">
+            <input type="checkbox"> Q&As
+         </div>
+         <div class="Box">
+            <input type="checkbox"> Social
+         </div>
+         <div class="Box">
+            <input type="checkbox"> Random
+         </div>
+         <div class="Box">
+            <input type="checkbox"> Music
+         </div>
+         <div class="Box">
+            <input type="checkbox"> Science
+        </div>
+         <div class="Box">
+            <input type="checkbox"> Pets
+         </div>
+         <div class="Box">
+            <input type="checkbox"> Education</div>
+         <div class="Box">
+            <input type="checkbox"> Video
+         </div>
+ </div>        
+
+       
+        <div class="bottom">
+          <label><input type="checkbox" name="" id=""> <small> I agree to the Terms & Conditions.</small></label>  
+          <label><input type="checkbox" name="" id=""> <small> Subscribe to newsletter</small></label>  
+   
+        <div class="Btn">
+            <input class="submit" type="submit" value="Create New Account">
+        </div></div>
+
+
+    </div>
+        <div class="bottom-container">
+            
+            <a class="footer-link" href="">Terms</a>
+            <a class="footer-link" href="">Privacy</a>
+            <a class="footer-link" href="">Send Feedback</a>
+            <a class="footer-link"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a class="footer-link"><i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="footer-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a class="footer-link"><i class="fa fa-frown-o" aria-hidden="true"></i></a>
+            <a class="footer-link"><i class="fa fa-cloud" aria-hidden="true"></i>
+            </a>
+            <a class="footer-link"><i class="fa fa-rss" aria-hidden="true"></i></a>
+        
+          </div>
+          </div>
+    </form>
+</body>
+</html>
